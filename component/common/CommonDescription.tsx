@@ -2,6 +2,12 @@ import { PropsWithChildren, CSSProperties } from 'react';
 import { IRow } from './IRow';
 import { HrefTargetBlank } from '.';
 
+CommonDescription.defaultProps = {
+  option: {
+    /* 기본 옵션 객체 */
+  },
+};
+
 /** Description Recusion Generator */
 export function CommonDescription({
   descriptions,

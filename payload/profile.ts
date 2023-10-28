@@ -1,6 +1,6 @@
-import { faBlog, faBook, faEnvelope, faPhone, faRss, faWifi } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faEnvelope, faPhone, faRss } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -40,7 +40,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: "반갑습니다. 신입 개발자 이수호입니다.",
+    title: '반갑습니다. 신입 개발자 이수호입니다.',
     icon: faBell,
   },
 };
