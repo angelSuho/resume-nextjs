@@ -1,4 +1,4 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faBlog, faBook, faEnvelope, faPhone, faRss, faWifi } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
@@ -10,38 +10,37 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '이수호',
+    small: '(호랑)',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
-      link: '#',
+      title: 'agsooho0303@gmail.com',
       icon: faEnvelope,
+      badge: true,
     },
     {
-      title: 'Please contact me by email',
+      title: '010-7720-7850',
       icon: faPhone,
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/angelSooho',
+      link: 'https://github.com/angelSooho',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
+      link: 'https://suho0303.tistory.com/',
+      icon: faRss,
     },
     {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
+      title: 'Portfolio',
+      link: 'https://agsooho0303.notion.site/Portfolio-02549d529771407bb5ee7995f362a4b0?pvs=4',
+      icon: faBook,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: "반갑습니다. 신입 개발자 이수호입니다.",
     icon: faBell,
   },
 };

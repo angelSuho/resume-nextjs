@@ -1,13 +1,13 @@
 import { IPresentation } from '../component/presentation/IPresentation';
 
 const presentation: IPresentation.Payload = {
-  disable: false,
+  disable: true,
 
   list: [
     {
-      title: 'Lorem ipsum',
+      title: '강남대학교 학부연구원',
       subTitle: 'consectetur adipiscing elit',
-      at: '2017-10',
+      at: '2018-10',
       descriptions: [
         {
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
