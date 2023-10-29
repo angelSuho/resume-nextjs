@@ -30,6 +30,7 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
     {
+      title: 'https://suho0303.tistory.com/',
       link: 'https://suho0303.tistory.com/',
       icon: faRss,
     },
