@@ -18,10 +18,10 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://angelsooho.github.io",
+  "homepage": "https://uyu423.github.io",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angelSooho/resume-nextjs.git"
+    "url": "git+https://github.com/uyu423/resume-nextjs.git"
   },
   "keywords": [
     "resume",
