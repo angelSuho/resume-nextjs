@@ -36,12 +36,12 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'Portfolio',
-      link: 'https://agsooho0303.notion.site/Portfolio-02549d529771407bb5ee7995f362a4b0?pvs=4',
+      link: 'https://portfolio.sooho.info/',
       icon: faBook,
     },
   ],
   notice: {
-    title: '반갑습니다. 신입 개발자 이수호입니다.',
+    title: '반갑습니다. 신입 서버 개발자 이수호입니다.',
     icon: faBell,
   },
 };

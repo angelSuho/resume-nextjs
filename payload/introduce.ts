@@ -9,7 +9,7 @@ const introduce: IIntroduce.Payload = {
     '개발에 대한 깊은 고민을 통해 더 나은 로직을 찾으려 꾸준히 노력하며, 개발 컨퍼런스를 활용합니다.',
     '모르는 것에 대해 두려워하지 않고 질문하며, 이를 통해 지식을 확장하면서 팀원들과 원활한 소통을 추구합니다.',
   ],
-  sign: 'sooho',
+  sign: '',
   // sign: packageJson.author.name,
   // latestUpdated: '2019-07-24',
   latestUpdated: lastestUpdatedAt,
