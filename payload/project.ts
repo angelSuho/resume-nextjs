@@ -67,8 +67,8 @@ const project: IProject.Payload = {
           content:
             '정적 데이터 캐싱처리와 쿼리최적화를 통해 조회에 대한 평균 응답시간 20%, TPS 약 22% 향상',
         },
-        { content: '페어프로그래밍 문화, Java 코드 스타일 최적화' },
         { content: 'BackEnd 4명' },
+        { content: '페어프로그래밍 문화, Java 코드 스타일 최적화' },
         {
           content: '기술 스택',
           weight: 'MEDIUM',
