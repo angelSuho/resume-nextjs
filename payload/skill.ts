@@ -104,6 +104,9 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
+      title: 'Linux',
+    },
+    {
       title: 'Ubuntu',
     },
     {
