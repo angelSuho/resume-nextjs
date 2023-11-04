@@ -14,12 +14,17 @@ const project: IProject.Payload = {
         },
         { content: '누적 방문자 3400여명 관리 및 운영' },
         { content: '주간 스프린트 주제를 정하여 매주 진행한 사항에 대해 회의' },
-        { content: 'jacoco 테스트 커버리지 전체 80%', weight: 'MEDIUM' },
-        { content: '부하테스트를 진행하여 트래픽 양에 따른 조회시간 확인' },
-        {
-          content:
-            '피크 시간동안 응답 시간 개선을 위해 정적 데이터 캐싱, 쿼리 최적화 등 비즈니스 로직 개선',
+        { content: 'jacoco 테스트 커버리지 전체 80%' },
+        { 
+          content: '부하테스트를 진행하여 트래픽 양에 따른 조회시간 확인',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content:
+              '피크 시간동안 응답 시간 개선을 위해 정적 데이터 캐싱, 쿼리 최적화 등 비즈니스 로직 개선',
+            },
+          ],
         },
+        
         { content: 'FrontEnd 2명, BackEnd 3명' },
         { content: '매일 PR을 올리고 상호간 코드 리뷰를 통해 협업 능력 향상' },
         {
@@ -28,7 +33,7 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                'SpringBoot 3.x, JPA, Querydsl, Redis, MariaDB, H2, JUnit5, Mockito, Github Actions, NCP-(Server, Object Storage)',
+                'SpringBoot 3.x, JPA, Querydsl, Redis, MariaDB, H2, JUnit5, Mockito, NCP-(Server, Object Storage), Github Actions',
             },
           ],
         },
@@ -61,6 +66,7 @@ const project: IProject.Payload = {
           content:
             '정적 데이터 캐싱처리와 쿼리최적화를 통해 조회에 대한 평균 응답시간 20%, TPS 약 22% 향상',
         },
+        { content: '페어프로그래밍 문화, Java 코드 스타일 최적화' },
         { content: 'BackEnd 4명' },
         {
           content: '기술 스택',

@@ -32,7 +32,7 @@ const backend: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'EHCahe',
+      title: 'EHCache',
       level: 2,
     },
   ],
@@ -108,6 +108,9 @@ const etc: ISkill.Skill = {
     },
     {
       title: 'Git',
+    },
+    {
+      title: 'Swagger',
     },
     {
       title: 'JMeter',
