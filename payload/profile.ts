@@ -41,7 +41,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: '반갑습니다. 신입 서버 개발자 이수호입니다.',
+    title: '반갑습니다! 신입 서버 개발자 이수호입니다.',
     icon: faBell,
   },
 };
