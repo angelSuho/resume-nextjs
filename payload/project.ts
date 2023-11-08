@@ -12,7 +12,7 @@ const project: IProject.Payload = {
           content: 'https://github.com/miIlicon/wf-back',
           href: 'https://github.com/miIlicon/wf-back',
         },
-        { content: '누적 방문자 3400여명 관리 및 운영' },
+        { content: '누적 방문자 2400여명 관리 및 운영' },
         { content: '주간 스프린트 주제를 정하여 매주 진행한 사항에 대해 회의' },
         { content: 'jacoco 테스트 커버리지 평균 80%', weight: 'MEDIUM' },
         {
