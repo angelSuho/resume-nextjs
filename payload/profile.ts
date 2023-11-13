@@ -36,7 +36,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'Portfolio',
-      link: 'https://portfolio.sooho.info/',
+      link: 'https://agsooho0303.notion.site/Portfolio-02549d529771407bb5ee7995f362a4b0?pvs=4',
       icon: faBook,
     },
   ],
