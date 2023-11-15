@@ -14,7 +14,7 @@ const project: IProject.Payload = {
         },
         { content: '누적 방문자 2400여명 관리 및 운영' },
         { content: '주간 스프린트 주제를 정하여 매주 진행한 사항에 대해 회의' },
-        { content: 'jacoco 테스트 커버리지 평균 80%', weight: 'MEDIUM' },
+        { content: 'jacoco 테스트 커버리지 평균 82%', weight: 'MEDIUM' },
         {
           content: '부하테스트를 진행하여 트래픽 양에 따른 조회시간 확인',
           weight: 'MEDIUM',
