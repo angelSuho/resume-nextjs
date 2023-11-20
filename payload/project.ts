@@ -6,7 +6,7 @@ const project: IProject.Payload = {
     {
       title: '강남대학교 축제 WithFestival',
       startedAt: '2023-04',
-      where: '강남대학교 2023년 10월 백양체전 축제 플랫폼',
+      where: '강남대학교 모두가 즐길 수 있도록 활동을 지원하는 축제 플랫폼',
       descriptions: [
         {
           content: 'https://github.com/miIlicon/wf-back',
