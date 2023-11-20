@@ -38,7 +38,7 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                'SpringBoot 3.x, JPA, Querydsl, Redis, MariaDB, H2, JUnit5, Mockito, NCP-(Server, Object Storage), Github Actions',
+                'SpringBoot 3.x, JPA, Querydsl, Redis, MariaDB, H2, JUnit5, Mockito, NCP-(Server, Object Storage), Github Actions, Slack',
             },
           ],
         },
