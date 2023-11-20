@@ -38,7 +38,7 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                'SpringBoot 3.x, JPA, Querydsl, Redis, MariaDB, H2, JUnit5, Mockito, NCP-(Server, Object Storage), Github Actions',
+                'SpringBoot 3.x, JPA, Querydsl, Redis, MariaDB, H2, JUnit5, Mockito, NCP-(Server, Object Storage), Nginx, Docker, Github Actions',
             },
           ],
         },
@@ -89,7 +89,7 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                'SpringBoot 3.x, JPA, Querydsl, Mysql, H2, Redis, JUnit5, Mockito, k8s, Kafka, Nginx, PinPoint, NCP-(Server, Object Storage), Github Actions',
+                'SpringBoot 3.x, JPA, Querydsl, Mysql, H2, Redis, JUnit5, Mockito, k8s, Kafka, Nginx, Docker, PinPoint, NCP-(Server, Object Storage), Github Actions',
             },
           ],
         },
