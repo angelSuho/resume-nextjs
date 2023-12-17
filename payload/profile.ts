@@ -25,8 +25,8 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com/angelSooho',
-      link: 'https://github.com/angelSooho',
+      title: 'https://github.com/angelSuho',
+      link: 'https://github.com/angelSuho',
       icon: faGithub,
     },
     {
@@ -36,7 +36,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'Portfolio',
-      link: 'https://portfolio.sooho.info/',
+      link: 'https://portfolio.suho.info/',
       icon: faBook,
     },
   ],
