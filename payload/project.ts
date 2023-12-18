@@ -51,8 +51,8 @@ const project: IProject.Payload = {
       where: '자신만의 스타일, 선호하는 스타일로 태그 기반 상품을 추천하는 패션 이커머스 플랫폼',
       descriptions: [
         {
-          content: 'https://github.com/angelSooho/TrendPick',
-          href: 'https://github.com/angelSooho/TrendPick',
+          content: 'https://github.com/angelSuho/TrendPick',
+          href: 'https://github.com/angelSuho/TrendPick',
         },
         { content: 'NCP 서버로 k8s를 이용하여 배포, Github Actions으로 CI/CD를 구축' },
         {
