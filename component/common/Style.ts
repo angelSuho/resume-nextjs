@@ -22,7 +22,7 @@ export const Style: Record<TStyleKey, CSSProperties> = {
 
   global: {
     fontFamily: "'Noto Sans KR', sans-serif",
-    fontWeight: 400,
+    fontWeight: 'lighter',
     wordWrap: 'break-word',
     wordBreak: 'keep-all',
     lineHeight: 1.8,

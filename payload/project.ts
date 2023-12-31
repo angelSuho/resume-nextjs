@@ -4,9 +4,9 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: '강남대학교 축제 WithFestival',
+      title: '대학교 축제 WithFestival',
       startedAt: '2023-04',
-      where: '강남대학교 모두가 즐길 수 있도록 활동을 지원하는 축제 플랫폼',
+      where: '대학교인 모두가 즐길 수 있도록 활동을 지원하는 축제 플랫폼',
       descriptions: [
         {
           content: 'https://github.com/miIlicon/wf-back',
@@ -14,7 +14,11 @@ const project: IProject.Payload = {
         },
         { content: '누적 방문자 2400여명 관리 및 운영' },
         { content: '주간 스프린트 주제를 정하여 매주 진행한 사항에 대해 회의' },
-        { content: 'jacoco 테스트 커버리지 평균 82%', weight: 'MEDIUM' },
+        {
+          content: '개발 중 체계적인 테스트 작성을 통해 프로젝트 안정성과 유지보수성을 강화',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'jacoco 테스트 커버리지 평균 82%' }],
+        },
         {
           content: '부하테스트를 진행하여 트래픽 양에 따른 조회시간 확인',
           weight: 'MEDIUM',
@@ -71,10 +75,13 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '상품, 주문 도메인 비즈니스 로직 구현',
+          content: '상품, 주문 도메인의 핵심 비즈니스 로직 구현과 최적화',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '주문 실패 시 재고 값 rollback, 결제 취소 로직 안정적으로 구현' },
+            {
+              content:
+                '주문 실패 시 재고 값 rollback 및 결제 취소 로직을 트랜잭션 관리를 통해 안정적으로 구현함으로써, 데이터 무결성 보장 및 시스템의 신뢰도 향상에 기여',
+            },
           ],
         },
         {

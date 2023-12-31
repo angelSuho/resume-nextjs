@@ -28,11 +28,11 @@ const backend: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'Gradle',
-      level: 3,
+      title: 'EHCache',
+      level: 2,
     },
     {
-      title: 'EHCache',
+      title: 'Kotlin',
       level: 2,
     },
   ],
@@ -47,10 +47,6 @@ const database: ISkill.Skill = {
     },
     {
       title: 'H2',
-      level: 2,
-    },
-    {
-      title: 'Redis',
       level: 2,
     },
   ],
@@ -80,6 +76,10 @@ const devops: ISkill.Skill = {
       level: 2,
     },
     {
+      title: 'Redis',
+      level: 2,
+    },
+    {
       title: 'Pinpoint',
       level: 2,
     },
@@ -97,33 +97,46 @@ const frontend: ISkill.Skill = {
       title: 'javascript',
       level: 2,
     },
+    {
+      title: 'React.js',
+      level: 1,
+    },
   ],
 };
 
-const etc: ISkill.Skill = {
-  category: 'Etc',
+const tools: ISkill.Skill = {
+  category: 'Tools & Etcs',
   items: [
+    {
+      title: 'Git',
+    },
+    {
+      title: 'Github',
+    },
+    {
+      title: 'IntelliJ IDEA',
+    },
+    {
+      title: 'Swagger',
+    },
+    {
+      title: 'VS Code',
+    },
+    {
+      title: 'JMeter',
+    },
     {
       title: 'Linux',
     },
     {
       title: 'Ubuntu',
     },
-    {
-      title: 'Git',
-    },
-    {
-      title: 'Swagger',
-    },
-    {
-      title: 'JMeter',
-    },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, devops, database, frontend, etc],
+  skills: [backend, devops, database, frontend, tools],
   tooltip: '1: 기초 수준\n2: 중급 수준\n3: Production 개발 가능 수준',
 };
 
