@@ -36,7 +36,13 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'Portfolio',
-      link: 'https://portfolio.suho.info/',
+      link:
+        'https://agsooho0303.notion.site/Portfolio-Suho-Lee-02549d529771407bb5ee7995f362a4b0?pvs=4',
+      icon: faBook,
+    },
+    {
+      title: '자기소개서',
+      link: 'https://agsooho0303.notion.site/55ea8c1839004ecdaa45eb4e90e474f5?pvs=4',
       icon: faBook,
     },
   ],
