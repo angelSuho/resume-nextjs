@@ -28,10 +28,6 @@ const backend: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'EHCache',
-      level: 2,
-    },
-    {
       title: 'Kotlin',
       level: 2,
     },
