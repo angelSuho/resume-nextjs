@@ -33,8 +33,6 @@ const project: IProject.Payload = {
             },
           ],
         },
-
-        { content: 'FrontEnd 2명, BackEnd 3명' },
         { content: '매일 PR을 올리고 상호간 코드 리뷰를 통해 협업 능력 향상' },
         {
           content: '기술 스택',
@@ -55,8 +53,8 @@ const project: IProject.Payload = {
       where: '자신만의 스타일, 선호하는 스타일로 태그 기반 상품을 추천하는 패션 이커머스 플랫폼',
       descriptions: [
         {
-          content: 'https://github.com/angelSuho/TrendPick',
-          href: 'https://github.com/angelSuho/TrendPick',
+          content: 'https://github.com/TrandPick/TrendPick_Pro',
+          href: 'https://github.com/TrandPick/TrendPick_Pro',
         },
         { content: 'NCP 서버로 k8s를 이용하여 배포, Github Actions으로 CI/CD를 구축' },
         {
@@ -88,7 +86,6 @@ const project: IProject.Payload = {
           content:
             '정적 데이터 캐싱처리와 쿼리최적화를 통해 조회에 대한 평균 응답시간 20%, TPS 약 22% 향상',
         },
-        { content: 'BackEnd 4명' },
         { content: '페어프로그래밍 문화, Java 코드 스타일 최적화' },
         {
           content: '기술 스택',
