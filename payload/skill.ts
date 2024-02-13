@@ -116,9 +116,6 @@ const tools: ISkill.Skill = {
       title: 'Swagger',
     },
     {
-      title: 'VS Code',
-    },
-    {
       title: 'JMeter',
     },
     {
