@@ -36,8 +36,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'Portfolio',
-      link:
-        'https://agsooho0303.notion.site/Portfolio-Suho-Lee-02549d529771407bb5ee7995f362a4b0?pvs=4',
+      link: 'https://drive.google.com/file/d/19WYBjLpuMSi7Dy5-ALQFNwWK5AzXQPSn/view?usp=sharing',
       icon: faBook,
     },
     {
