@@ -15,7 +15,7 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'agsooho0303@gmail.com',
+      title: 'angelsuho0303@gmail.com',
       icon: faEnvelope,
       badge: true,
     },
