@@ -17,13 +17,6 @@ const education: IEducation.Payload = {
       startedAt: '2021-08',
     },
     {
-      title: '멋쟁이사자처럼 백엔드 스쿨 3기',
-      subTitle:
-        'Java, Spring 심화 학습. 백엔드 개발 전반 부분 역량 향상. 스터디 학습, 팀프로젝트 활동으로 얻은 협업 경험',
-      startedAt: '2023-02',
-      endedAt: '2023-07',
-    },
-    {
       title: '강남대학교',
       subTitle: '소프트웨어 / 가상현실 복수 전공 학사 졸업',
       startedAt: '2017-03',
