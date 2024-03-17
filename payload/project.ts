@@ -83,6 +83,20 @@ const project: IProject.Payload = {
           ],
         },
         {
+          content: '상품 데이터셋 검색 쿼리 최적화',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '기존 LIKE 기반 검색 연산 로직에서 FULLTEXT 인덱싱을 이용한 검색 쿼리로 전환하여 데이터 검색 성능 향상',
+            },
+            {
+              content:
+                'LIKE 검색에서 FULLTEXT 검색으로의 전환 후, 검색 처리 시간이 평균 12초에서 평균 0.8 ~ 1.1초로 감소',
+            },
+          ],
+        },
+        {
           content:
             '정적 데이터 캐싱처리와 쿼리최적화를 통해 조회에 대한 평균 응답시간 20%, TPS 약 22% 향상',
         },
