@@ -33,7 +33,8 @@ const project: IProject.Payload = {
             },
             {
               content: '이슈정리',
-              href: 'https://drive.google.com/file/d/1u2ZfXN2Nw2-38jjTw6hyR3_8JfHI90mv/view?usp=sharing',
+              href:
+                'https://drive.google.com/file/d/1u2ZfXN2Nw2-38jjTw6hyR3_8JfHI90mv/view?usp=sharing',
             },
           ],
         },
@@ -76,7 +77,8 @@ const project: IProject.Payload = {
             },
             {
               content: '이슈정리',
-              href: 'https://drive.google.com/file/d/1onCWjHKH1UYxfC43gzQQKoXdt2T_J8Pe/view?usp=sharing',
+              href:
+                'https://drive.google.com/file/d/1onCWjHKH1UYxfC43gzQQKoXdt2T_J8Pe/view?usp=sharing',
             },
           ],
         },
@@ -104,8 +106,9 @@ const project: IProject.Payload = {
             },
             {
               content: '이슈정리',
-              href: 'https://drive.google.com/file/d/1Trkfi6J6QAwlKWuvFSgt85EYIQ0kLVGx/view?usp=sharing'
-            }
+              href:
+                'https://drive.google.com/file/d/1Trkfi6J6QAwlKWuvFSgt85EYIQ0kLVGx/view?usp=sharing',
+            },
           ],
         },
         {
