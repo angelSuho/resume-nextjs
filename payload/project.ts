@@ -31,6 +31,10 @@ const project: IProject.Payload = {
               content:
                 '매 페이지 조회마다 쿼리가 발생하며 조회수를 업데이트하던 것을, 조회수 증가량을 Redis에 임시 저장한 후, 매일 자정에 일괄적으로 DB에 업데이트하는 방식으로 변경하여 DB 쿼리 부하 개선',
             },
+            {
+              content: '이슈정리',
+              href: 'https://drive.google.com/file/d/1u2ZfXN2Nw2-38jjTw6hyR3_8JfHI90mv/view?usp=sharing',
+            },
           ],
         },
         { content: '매일 PR을 올리고 상호간 코드 리뷰를 통해 협업 능력 향상' },
@@ -53,8 +57,8 @@ const project: IProject.Payload = {
       where: '자신만의 스타일, 선호하는 스타일로 태그 기반 상품을 추천하는 패션 이커머스 플랫폼',
       descriptions: [
         {
-          content: 'https://github.com/TrandPick/TrendPick_Pro',
-          href: 'https://github.com/TrandPick/TrendPick_Pro',
+          content: 'https://github.com/angelSuho/TrendPick',
+          href: 'https://github.com/angelSuho/TrendPick',
         },
         { content: 'NCP 서버로 k8s를 이용하여 배포, Github Actions으로 CI/CD를 구축' },
         {
@@ -69,6 +73,10 @@ const project: IProject.Payload = {
             {
               content:
                 '주문 메소드의 요청 순서에 따라 락 획득 순서를 설정하고 락 타임아웃을 설정하여 데드락을 방지하는 등의 방법을 도입',
+            },
+            {
+              content: '이슈정리',
+              href: 'https://drive.google.com/file/d/1onCWjHKH1UYxfC43gzQQKoXdt2T_J8Pe/view?usp=sharing',
             },
           ],
         },
@@ -94,6 +102,10 @@ const project: IProject.Payload = {
               content:
                 'LIKE 검색에서 FULLTEXT 검색으로의 전환 후, 검색 처리 시간이 평균 12초에서 평균 0.8 ~ 1.1초로 감소',
             },
+            {
+              content: '이슈정리',
+              href: 'https://drive.google.com/file/d/1Trkfi6J6QAwlKWuvFSgt85EYIQ0kLVGx/view?usp=sharing'
+            }
           ],
         },
         {
