@@ -4,8 +4,66 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'Pregen',
+      startedAt: '2023-12',
+      where: '완벽하게 발표를 할 수 있도록 발표문 암기 및 연습을 보조해주는 서비스',
+      descriptions: [
+        {
+          content: 'https://github.com/DDD-Community/pregen-server',
+          href: 'https://github.com/DDD-Community/pregen-server',
+        },
+        {
+          content: '모듈화된 서비스 배포',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: 'Docker Compose를 활용하여 서비스를 독립적인 모듈로 분할',
+            },
+            {
+              content: '각기 다른 기능을 수행하는 여러 컨테이너로 애플리케이션을 배포',
+            },
+            {
+              content:
+                '각 모듈을 독립적으로 운영함으로써 시스템의 한 부분에 문제가 발생하더라도 전체 시스템에 영향을 미치지 않고, 각 모듈의 리소스 사용을 효율적으로 관리',
+            },
+          ],
+        },
+        {
+          content: '웹소켓 기반의 실시간 데이터 동기화 구현',
+          descriptions: [
+            {
+              content:
+                'PC와 모바일 간 데이터 동기화를 위해 웹소켓 기술을 활용하여 실시간 세션 관리 및 동기화 시스템을 구현',
+            },
+            {
+              content: '클라이언트와 서버 간 시간 오차를 방지하기 위해 동기화된 시간 관리',
+            },
+            {
+              content:
+                'Redis를 사용하여 세션 데이터를 임시 저장하고 관리, PC와 모바일 사용자 간의 데이터 송수신을 최적화하여 사용자 경험 개선',
+            },
+          ],
+        },
+        {
+          content:
+            '개발직군 이외에 다직군 팀원들과의 협업을 통해 얻은 효율적인 프로젝트 관리 및 개발 프로세스 경험',
+        },
+        {
+          content: '기술 스택',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Kotlin, SpringBoot 3.x, JPA, Querydsl, Redis, Mysql, WebSocket, Chat gpt API, JUnit5, Mockito, RabbitMQ, AWS-(EC2), Nginx, Docker-Compose',
+            },
+          ],
+        },
+      ],
+    },
+    {
       title: '대학교 축제 WithFestival',
       startedAt: '2023-04',
+      endedAt: '2023-12',
       where: '대학교인 모두가 즐길 수 있도록 활동을 지원하는 축제 플랫폼',
       descriptions: [
         {
