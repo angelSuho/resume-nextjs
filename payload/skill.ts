@@ -87,15 +87,24 @@ const frontend: ISkill.Skill = {
   items: [
     {
       title: 'HTML/CSS',
-      level: 2,
+      level: 3,
     },
     {
       title: 'javascript',
+      level: 3,
+    },
+    {
+      title: 'JSP',
       level: 2,
     },
     {
+      title: 'JQuery',
+      level: 2,
+    },
+
+    {
       title: 'React.js',
-      level: 1,
+      level: 2,
     },
   ],
 };
