@@ -5,31 +5,24 @@ const backend: ISkill.Skill = {
   items: [
     {
       title: 'Java',
-      level: 3,
     },
     {
       title: 'Spring framework',
-      level: 3,
     },
     {
       title: 'JPA',
-      level: 3,
     },
     {
       title: 'Querydsl',
-      level: 3,
     },
     {
       title: 'Junit5',
-      level: 3,
     },
     {
       title: 'Mockito',
-      level: 2,
     },
     {
       title: 'Kotlin',
-      level: 2,
     },
   ],
 };
@@ -39,11 +32,9 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 3,
     },
     {
       title: 'H2',
-      level: 2,
     },
   ],
 };
@@ -53,31 +44,21 @@ const devops: ISkill.Skill = {
   items: [
     {
       title: 'AWS',
-      level: 3,
     },
     {
       title: 'NCP',
-      level: 3,
     },
     {
       title: 'Github Actions',
-      level: 3,
     },
     {
       title: 'Nginx',
-      level: 2,
     },
     {
       title: 'Docker',
-      level: 2,
     },
     {
       title: 'Redis',
-      level: 2,
-    },
-    {
-      title: 'Pinpoint',
-      level: 2,
     },
   ],
 };
@@ -87,24 +68,15 @@ const frontend: ISkill.Skill = {
   items: [
     {
       title: 'HTML/CSS',
-      level: 3,
     },
     {
       title: 'javascript',
-      level: 3,
     },
     {
       title: 'JSP',
-      level: 2,
     },
-    {
-      title: 'JQuery',
-      level: 2,
-    },
-
     {
       title: 'React.js',
-      level: 2,
     },
   ],
 };
