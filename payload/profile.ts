@@ -36,7 +36,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'Portfolio',
-      link: 'https://drive.google.com/file/d/16Vk88YeJhiOLeIqNUUuYyRWSblrh_Jh1/view?usp=sharing',
+      link: 'https://drive.google.com/file/d/1dgMGwN8rtJf6YtKuFw-U56dAxww5QW-P/view?usp=sharing',
       icon: faBook,
     },
     {

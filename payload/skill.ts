@@ -7,6 +7,9 @@ const backend: ISkill.Skill = {
       title: 'Java',
     },
     {
+      title: 'Kotlin',
+    },
+    {
       title: 'Spring framework',
     },
     {
@@ -20,9 +23,6 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'Mockito',
-    },
-    {
-      title: 'Kotlin',
     },
   ],
 };
