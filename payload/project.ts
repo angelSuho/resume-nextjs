@@ -68,7 +68,7 @@ const project: IProject.Payload = {
           content: 'https://github.com/miIlicon/wf-back',
           href: 'https://github.com/miIlicon/wf-back',
         },
-        { content: '누적 방문자 2400여명 관리 및 운영' },
+        { content: '누적 방문자 5,000여명 관리 및 운영' },
         { content: '주간 스프린트 주제를 정하여 매주 진행한 사항에 대해 회의' },
         {
           content: '개발 중 체계적인 테스트 작성을 통해 프로젝트 안정성과 유지보수성을 강화',
