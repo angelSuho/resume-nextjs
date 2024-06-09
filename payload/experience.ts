@@ -1,8 +1,8 @@
 import { IExperience } from '../component/experience/IExperience';
 
 const experience: IExperience.Payload = {
-  disable: false,
-  disableTotalPeriod: false,
+  disable: true,
+  disableTotalPeriod: true,
   list: [
     // {
     //   title: 'Foo Company',

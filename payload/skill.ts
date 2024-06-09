@@ -37,6 +37,9 @@ const database: ISkill.Skill = {
       title: 'MySQL',
     },
     {
+      title: 'MariaDB',
+    },
+    {
       title: 'H2',
     },
   ],
