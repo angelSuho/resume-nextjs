@@ -13,6 +13,9 @@ const backend: ISkill.Skill = {
       title: 'Spring framework',
     },
     {
+      title: 'MYBatis',
+    },
+    {
       title: 'JPA',
     },
     {
@@ -89,9 +92,6 @@ const tools: ISkill.Skill = {
     },
     {
       title: 'Github',
-    },
-    {
-      title: 'IntelliJ IDEA',
     },
     {
       title: 'Swagger',
