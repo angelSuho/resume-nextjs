@@ -10,22 +10,22 @@ const backend: ISkill.Skill = {
       title: 'Kotlin',
     },
     {
-      title: 'Spring framework',
+      title: 'Junit5',
     },
     {
-      title: 'MYBatis',
+      title: 'Spring framework',
     },
     {
       title: 'JPA',
     },
     {
-      title: 'Querydsl',
-    },
-    {
-      title: 'Junit5',
-    },
-    {
       title: 'Mockito',
+    },
+    {
+      title: 'MYBatis',
+    },
+    {
+      title: 'Querydsl',
     },
   ],
 };
@@ -33,6 +33,9 @@ const backend: ISkill.Skill = {
 const database: ISkill.Skill = {
   category: 'Database',
   items: [
+    {
+      title: 'Oracle',
+    },
     {
       title: 'MySQL',
     },
@@ -55,16 +58,19 @@ const devops: ISkill.Skill = {
       title: 'NCP',
     },
     {
-      title: 'Github Actions',
+      title: 'Nginx',
     },
     {
-      title: 'Nginx',
+      title: 'Github Actions',
     },
     {
       title: 'Docker',
     },
     {
       title: 'Redis',
+    },
+    {
+      title: 'Jenkins',
     },
   ],
 };
@@ -83,6 +89,9 @@ const frontend: ISkill.Skill = {
     },
     {
       title: 'React.js',
+    },
+    {
+      title: 'JQuery',
     },
   ],
 };

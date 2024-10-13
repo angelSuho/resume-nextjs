@@ -6,6 +6,7 @@ const project: IProject.Payload = {
     {
       title: 'Pregen',
       startedAt: '2023-12',
+      endedAt: '2024-07',
       where: '완벽하게 발표를 할 수 있도록 발표문 암기 및 연습을 보조해주는 서비스',
       descriptions: [
         {
