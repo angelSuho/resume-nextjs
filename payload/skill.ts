@@ -7,25 +7,22 @@ const backend: ISkill.Skill = {
       title: 'Java',
     },
     {
-      title: 'Kotlin',
-    },
-    {
-      title: 'Junit5',
-    },
-    {
       title: 'Spring framework',
     },
     {
       title: 'JPA',
     },
     {
+      title: 'Junit5',
+    },
+    {
       title: 'Mockito',
     },
     {
-      title: 'MYBatis',
+      title: 'Querydsl',
     },
     {
-      title: 'Querydsl',
+      title: 'Kotlin',
     },
   ],
 };
@@ -86,9 +83,6 @@ const frontend: ISkill.Skill = {
     },
     {
       title: 'JSP',
-    },
-    {
-      title: 'React.js',
     },
     {
       title: 'JQuery',
