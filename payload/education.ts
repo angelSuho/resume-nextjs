@@ -5,7 +5,7 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: 'KCC정보통신 채용연계형 교육 과정',
+      title: '공공it 인재 양성 교육 과정',
       subTitle:
         'SI 개발 분야에서 요구되는 전문 지식과 기술을 학습하고, 시스템 설계, 데이터 모델링과 같은 실무에서 요구되는 역량을 갖추기 위한 교육과정을 진행하고 있습니다.',
       startedAt: '2024-05',
