@@ -34,7 +34,6 @@ module.exports = {
     'import/prefer-default-export': 0,
     'import/extensions': 0,
     'react/react-in-jsx-scope': 0,
-    "react/no-array-index-key": "off",
     quotes: [
       2,
       'single',

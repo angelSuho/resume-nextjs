@@ -1,10 +1,6 @@
 import { Row, Col } from 'reactstrap';
 import { PropsWithChildren } from 'react';
 
-HrefTargetBlank.defaultProps = {
-  text: 'Default text',
-};
-
 export function EmptyRowCol<T = {}>({ children }: PropsWithChildren<T>) {
   return (
     <Row>
